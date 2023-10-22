@@ -1,0 +1,13 @@
+nav{
+    display:flex;
+    margin-left:5%
+}
+nav h1{
+    margin-right:50px;
+}
+button{
+    border:none;
+    margin-right:30px;
+    background-color: none;
+    font-size:18px;
+}

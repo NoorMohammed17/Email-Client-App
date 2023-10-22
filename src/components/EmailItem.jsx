@@ -47,7 +47,7 @@ const EmailItem = ({ email, name, id, subject, description,date }) => {
                         <p>{description}</p>
                         <div className={classes.actions}>
                             <p>{formattedDate}</p>
-                            <button >{id}</button>
+                            {/* <button >{id}</button> */}
                         </div>
 
                     </div>
