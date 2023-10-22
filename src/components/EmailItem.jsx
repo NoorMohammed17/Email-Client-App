@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import classes from "./EmailItem.module.css";
 import Card from '../UI/Card';
 
-const EmailItem = ({ email, name, id, subject, description,date },props) => {
+const EmailItem = ({ email, name, id, subject, description,date }) => {
     const initialTimestamp = date;
     const [timestamp] = useState(initialTimestamp);
     const [formattedDate, setFormattedDate] = useState('');

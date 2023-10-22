@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import EmailList from './EmailList';
 
-
-
 function Email() {
   const [emails, setEmails] = useState([])
   const [isLoading, setIsLoading] = useState(false);
@@ -18,7 +16,7 @@ function Email() {
       }
 
       const res = await response.json();
-      const data=await res.list;
+      const data = await res.list;
       console.log(data)
 
       setEmails(data);
@@ -49,7 +47,7 @@ function Email() {
   return (
     <React.Fragment>
       <section>{content}</section>
-=
+      =
     </React.Fragment>
   );
 }
